@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'estado.dart';
-import 'pantalla_bienvenida.dart';
+import 'pantalla_splash.dart'; 
 import 'tema.dart';
 
 Future<void> main() async {
@@ -19,7 +19,7 @@ class GameNightApp extends StatelessWidget {
       title: 'GameNight',
       debugShowCheckedModeBanner: false,
       theme: construirTema(),
-      home: const PantallaBienvenida(),
+      home: const PantallaSplash(), 
     );
   }
 }

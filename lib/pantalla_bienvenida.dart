@@ -28,13 +28,11 @@ class PantallaBienvenida extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Spacer(),
-                Container(
-                  padding: const EdgeInsets.all(18),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.12),
-                    borderRadius: BorderRadius.circular(24),
-                  ),
-                  child: const Icon(Icons.casino, size: 56, color: Colores.acento),
+                Image.asset(
+                  'images/Logo.png',
+                  width: 120,
+                  height: 120,
+                  fit: BoxFit.contain,
                 ),
                 const SizedBox(height: 24),
                 const Text(
